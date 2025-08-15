@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple</title>
+  </head>
+  <body>
+    <button onclick="refresh()">Go</button>
+    <pre id="current">...</pre>
+
+    <script>
+      async function refresh() {
+        var c = document.getElementById("current");
+	c.innerText = "Reading ...";
+	
+	var url = "https://api.coinbase.com/v2/prices/BTC-USD/spot";
+	var response = await fetch(url)
+	c.innerText  = await response.text()
+      }
+    </script>
+  </body>
+</html>
+

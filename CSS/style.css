@@ -1,0 +1,15 @@
+// There are 3 ways to write CSS
+
+// First method: Write on the other files and bring it to link
+<link rel="stylesheet" href="/main.css">
+
+// Second method: Write on <style>...</style> (problem for this method is less than the other method)
+<style>
+  body {
+    color: #333;
+  }
+</style>
+
+
+// Third method: Write on the attribute of each element (hard to maintain)
+<style="color:red;">File not found</p>
