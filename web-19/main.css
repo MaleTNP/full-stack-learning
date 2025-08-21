@@ -1,0 +1,30 @@
+
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0px;
+}
+
+button {
+  color: white;
+  background: violet;
+  border-radius: 5px;
+  border: purple 1.5px solid;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 10px;
+}
+
+button:hover {
+  color: violet;
+  background: purple;
+  border-radius: 20px;
+}
+
