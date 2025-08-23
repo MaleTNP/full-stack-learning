@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+button {
+  color: white;
+  background: brown;
+  border: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1024;
+  margin: 0 auto;
+}
